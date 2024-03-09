@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ArrowRightComponent } from "../../icons/arrow-right/arrow-right.component";
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-home',
@@ -10,4 +11,10 @@ import { ArrowRightComponent } from "../../icons/arrow-right/arrow-right.compone
 })
 export class HomeComponent {
 
+    constructor(private router: Router) {
+    }
+
+    openChatText() {
+        this.router.navigate(['chat']);
+    }
 }
