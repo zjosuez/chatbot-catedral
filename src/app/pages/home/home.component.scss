@@ -1,0 +1,45 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    padding: 34px 0;
+
+    .catedral-img {
+        width: 100%;
+    }
+
+    header {
+        text-align: center;
+        max-width: 264px;
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 24px; 
+            margin-bottom: 14px;
+        }
+
+        p {
+            font-size: 14px;
+            color: var(--text-primary);
+        }
+    }
+
+    button {
+        background-color: var(--primary-color);
+        width: 90%;
+        height: 56px;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 30px;
+        padding: 14px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+}
