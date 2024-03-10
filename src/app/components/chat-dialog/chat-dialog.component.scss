@@ -1,0 +1,13 @@
+.message-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: scroll;
+    align-items: flex-start;
+    padding: 30px;
+
+    .chat-balloon {
+        width: 100%;
+    }
+}
