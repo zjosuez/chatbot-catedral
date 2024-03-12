@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './vector-right.component.html',
 })
-export class VectorRightComponent {
-
-}
+export class VectorRightComponent {}

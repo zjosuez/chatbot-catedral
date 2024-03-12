@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './chat-response.component.html',
-  styleUrl: './chat-response.component.scss'
+  styleUrl: './chat-response.component.scss',
 })
 export class ChatResponseComponent {
   @Input() message!: Message;

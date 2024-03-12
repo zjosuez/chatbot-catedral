@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './search-icon.component.html',
 })
-export class SearchIconComponent {
-
-}
+export class SearchIconComponent {}

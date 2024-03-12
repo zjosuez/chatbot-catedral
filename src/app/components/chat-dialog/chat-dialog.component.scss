@@ -1,11 +1,11 @@
 .message-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 36px;
 
-    .chat-balloon {
-        width: 100%;
-    }
+  .chat-balloon {
+    width: 100%;
+  }
 }

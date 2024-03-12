@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './catedral-icon.component.html',
 })
-export class CatedralIconComponent {
-
-}
+export class CatedralIconComponent {}

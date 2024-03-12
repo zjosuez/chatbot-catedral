@@ -1,4 +1,4 @@
 export type Message = {
-    type: 'request' | 'response',
-    message: string
-}
+  type: 'request' | 'response';
+  message: string;
+};

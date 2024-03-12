@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './arrow-left.component.html',
 })
-export class ArrowLeftComponent {
-
-}
+export class ArrowLeftComponent {}

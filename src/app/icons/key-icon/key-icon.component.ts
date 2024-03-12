@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './key-icon.component.html',
 })
-export class KeyIconComponent {
-
-}
+export class KeyIconComponent {}

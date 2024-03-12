@@ -1,22 +1,22 @@
 :root {
-    --primary-color: #007BFF;
-    --text-primary: #757575;
-    --text-secondary: #3F3F3F;
-    --text-bold: #3E3E3E;
-    --text-chat: #A1A1A1;
-    --green-color: #3ABF38;
-    --bg-secondary: #F4F4F4;
-    --bg-primary: #FFF;
-    --border-color: #ECECEC;
+  --primary-color: #007bff;
+  --text-primary: #757575;
+  --text-secondary: #3f3f3f;
+  --text-bold: #3e3e3e;
+  --text-chat: #a1a1a1;
+  --green-color: #3abf38;
+  --bg-secondary: #f4f4f4;
+  --bg-primary: #fff;
+  --border-color: #ececec;
 }
 
 * {
-    font-family: "Nunito", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
+  height: 100vh;
 }

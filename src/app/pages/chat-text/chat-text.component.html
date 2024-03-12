@@ -1,16 +1,19 @@
 <main class="chat-wrapper">
-    <header>
-        <button>
-            <arrow-left></arrow-left>
-        </button>
-        <catedral-icon></catedral-icon>
-        <div class="status">
-            <p>Catedral</p>
-            <span>• Online</span>
-        </div>
-    </header>
-    <section class="chat-content">
-        <chat-suggestions (questionSelected)="sendQuestion($event)" *ngIf="questions.length < 1"></chat-suggestions>
-        <chat-dialog [messages]="questions"></chat-dialog>
-    </section>
+  <header>
+    <button>
+      <arrow-left></arrow-left>
+    </button>
+    <catedral-icon></catedral-icon>
+    <div class="status">
+      <p>Catedral</p>
+      <span>• Online</span>
+    </div>
+  </header>
+  <section class="chat-content">
+    <chat-suggestions
+      (questionSelected)="sendQuestion($event)"
+      *ngIf="questions.length < 1"
+    ></chat-suggestions>
+    <chat-dialog [messages]="questions"></chat-dialog>
+  </section>
 </main>

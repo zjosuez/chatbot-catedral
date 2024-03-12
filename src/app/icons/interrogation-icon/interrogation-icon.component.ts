@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './interrogation-icon.component.html',
 })
-export class InterrogationIconComponent {
-
-}
+export class InterrogationIconComponent {}
