@@ -1,6 +1,6 @@
 <main class="chat-wrapper">
   <header>
-    <button>
+    <button (click)="return()">
       <arrow-left></arrow-left>
     </button>
     <catedral-icon></catedral-icon>
@@ -16,4 +16,10 @@
     ></chat-suggestions>
     <chat-dialog [messages]="questions"></chat-dialog>
   </section>
+  <form [formGroup]="chatForm">
+    <input placeholder="Escreva sua mensagem aqui" type="text" id="name" formControlName="message"/>
+    <button (click)="submit()">
+        <vector-right></vector-right>
+    </button>
+</form>
 </main>
