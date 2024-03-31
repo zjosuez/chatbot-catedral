@@ -4,7 +4,7 @@
   justify-content: flex-end;
   align-items: flex-start;
   gap: 36px;
-
+  overflow-y: auto;
   .chat-balloon {
     width: 100%;
   }
